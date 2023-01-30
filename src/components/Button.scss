@@ -1,0 +1,19 @@
+@use "../styles/variables";
+
+.icon {
+    position: absolute;
+    bottom: -30px;
+    background-color: variables.$neon-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+}
+
+.icon:hover {
+    background-color: variables.$neon-green;
+    box-shadow: 0px 0px 58px 0px variables.$neon-green;
+}

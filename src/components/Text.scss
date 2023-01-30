@@ -1,0 +1,19 @@
+@use "../styles/variables";
+
+.text {
+    color:white;
+    text-align: center;
+    max-height: 100%;
+ &__heading {
+    color: variables.$neon-green;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }   
+ &__paragraph {
+    color: variables.$light-cyan;
+    max-width: 100%;
+    max-height: 100%;
+ }
+}

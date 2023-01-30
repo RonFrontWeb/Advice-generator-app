@@ -1,0 +1,23 @@
+@use "../styles/variables";
+
+.container {
+    position: relative;
+    background-color: variables.$dark-blue;
+    min-height: 300px;
+    max-width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    &__divider {
+        display: flex;
+        
+    }
+    &__icon {
+        height: 0px;
+        font-size: s2rem;
+        padding: 0;
+    }
+}
